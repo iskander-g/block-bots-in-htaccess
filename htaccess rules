@@ -69,8 +69,8 @@ SetEnvIfNoCase User-Agent "^attach" bot
 SetEnvIfNoCase User-Agent "^AIBOT" bot
 SetEnvIfNoCase User-Agent "^Accelerator" bot
 SetEnvIfNoCase User-Agent "^Ants" bot
-SetEnvIfNoCase User-Agent "^AhrefsBot" bot
-SetEnvIfNoCase User-Agent "^AhrefsSiteAudit" bot
+SetEnvIfNoCase User-Agent "AhrefsBot" bot
+SetEnvIfNoCase User-Agent "AhrefsSiteAudit" bot
 SetEnvIfNoCase User-Agent "^Ask Jeeves" bot
 SetEnvIfNoCase User-Agent "^Atomic_Email_Hunter" bot
 SetEnvIfNoCase User-Agent "^atSpider" bot
